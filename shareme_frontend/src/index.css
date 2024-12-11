@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-theme="dark"] {
+    --primary-color: #ffffff;
+    --bg-color: #000000;
+    --secondary-color: #ff3366;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
